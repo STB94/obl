@@ -4,6 +4,13 @@
     line-height: 2;
 }
 
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+
 h2 {
     font-size: 35px;
     text-decoration: underline;
@@ -163,3 +170,38 @@ footer p {
     height: 100%;
     z-index: -1;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .logores {
+        text-align: center;
+        margin: 10 auto;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .logores {
+        display: none;
+
+    }
+
+}
+
+
