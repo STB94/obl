@@ -83,6 +83,13 @@ header {
     width: 400px;
 }
 
+.logores img {
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .content-section {
     padding: 40px 20px;
     max-width: 1200px;
@@ -171,6 +178,9 @@ footer p {
     z-index: -1;
 }
 
+.schatten {
+    text-shadow: #fff 1px 1px 3px;
+}
 
 @media only screen and (max-width: 768px) {
 
