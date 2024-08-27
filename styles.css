@@ -35,9 +35,9 @@ body {
 header {
     background-color: #00284c;
     color: #fff;
-    padding: 2px 0;
+    padding: 3px 0;
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 1000;
 }
 
@@ -83,10 +83,15 @@ header {
     width: 400px;
 }
 
-.logores img {
-    width: 200px;
-    padding: 20px;
+.logores {
+    display: block;
     margin: 0 auto;
+}
+
+.logores img {
+    margin: 0 auto;
+    width: 150px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -199,6 +204,15 @@ footer p {
 
     nav {
         padding: 20px;
+    }
+
+    header {
+        background-color: #00284c;
+        color: #fff;
+        padding: 3px 0;
+        position: sticky;
+        top: -1px;
+        z-index: 1000;
     }
 
 }
